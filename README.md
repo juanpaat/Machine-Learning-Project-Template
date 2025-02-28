@@ -10,8 +10,8 @@ Welcome to the **Machine Learning Project Template**! This repository provides a
 │   ├── raw/                  # Raw datasets
 │   ├── processed/             # Processed datasets
 ├── notebooks/                # Jupyter notebooks for experiments
-│   ├── 01_data_preprocessing.ipynb   # Data preprocessing steps
-│   ├── 02_model_training.ipynb       # Common ML models implementation
+│   ├── Template_preprocessing.ipynb   # Data preprocessing steps
+│   ├── Template_models.ipynb       # Common ML models implementation
 ├── src/                      # Source code for reusable modules
 │   ├── data_preprocessing.py  # Data cleaning and feature engineering
 │   ├── model.py               # Model training and evaluation
@@ -29,10 +29,10 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Load and Preprocess Data
-Modify the `notebooks/01_data_preprocessing.ipynb` notebook to load and clean your dataset. The `src/data_preprocessing.py` script can also be used for automated preprocessing steps.
+Modify the `notebooks/Template_preprocessing.ipynb` notebook to load and clean your dataset. The `src/data_preprocessing.py` script can also be used for automated preprocessing steps.
 
 ### 3️⃣ Train and Evaluate Models
-Use `notebooks/02_model_training.ipynb` to train models such as Logistic Regression, Random Forest, and Neural Networks. Customize the training pipeline using `src/model.py`.
+Use `notebooks/Template_models.ipynb` to train models such as Logistic Regression, Random Forest, and Neural Networks. Customize the training pipeline using `src/model.py`.
 
 ### 4️⃣ Customize and Extend
 - Add new models by modifying `src/model.py`.
@@ -40,8 +40,8 @@ Use `notebooks/02_model_training.ipynb` to train models such as Logistic Regress
 - Use `config.yaml` for dynamic configuration management.
 
 ## 📖 Notebooks Overview
-- **01_data_preprocessing.ipynb**: Covers data cleaning, handling missing values, feature engineering, and exploratory data analysis.
-- **02_model_training.ipynb**: Implements common ML models with training, validation, and evaluation.
+- **Template_preprocessing.ipynb**: Covers data cleaning, handling missing values, feature engineering, and exploratory data analysis.
+- **Template_models.ipynb**: Implements common ML models with training, validation, and evaluation.
 
 ## 🛠️ Installation & Dependencies
 Ensure Python 3.8+ is installed. Install dependencies with:
