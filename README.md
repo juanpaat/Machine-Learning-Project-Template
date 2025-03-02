@@ -17,7 +17,6 @@ Welcome to the **Machine Learning Project Template**! This repository provides a
 │   ├── model.py               # Model training and evaluation
 ├── requirements.txt          # List of required Python packages
 ├── README.md                 # Project documentation
-├── config.yaml               # Configuration settings
 ```
 
 ## 🚀 Usage Guide
