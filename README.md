@@ -34,9 +34,7 @@ Modify the `notebooks/Template_preprocessing.ipynb` notebook to load and clean y
 Use `notebooks/Template_models.ipynb` to train models such as Logistic Regression, Random Forest, and Neural Networks. Customize the training pipeline using `src/model.py`.
 
 ### 4️⃣ Customize and Extend
-- Add new models by modifying `src/model.py`.
 - Integrate hyperparameter tuning strategies.
-- Use `config.yaml` for dynamic configuration management.
 
 ## 📖 Notebooks Overview
 - **Template_preprocessing.ipynb**: Covers data cleaning, handling missing values, feature engineering, and exploratory data analysis.
